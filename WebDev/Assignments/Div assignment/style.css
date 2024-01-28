@@ -1,0 +1,48 @@
+.header {
+    background-color: aquamarine;
+    padding: 30px;
+
+    display: grid;
+    grid-template-rows: auto 1fr;
+  }
+
+.nav {
+    float: left;
+    width: 20%;
+    height: auto;
+    }     
+.nav ul {
+    text-align: center;
+    list-style-type: none;
+    padding: 30px;
+    margin-top: 45%;
+  }
+
+.article {
+    float: right;
+    width: 70%;
+    background-color: white;
+    height: auto; 
+  }
+
+#logo{
+  height: 60px;
+   width: 120px; 
+  padding-right: 70%;
+}
+
+.header button {
+ float: right;
+ border: 1px solid black;
+ cursor: pointer;
+ padding: 3px 7px;
+ grid-row: 2;
+}
+
+.button{
+  grid-row: 2;
+}
+
+  
+
+  
